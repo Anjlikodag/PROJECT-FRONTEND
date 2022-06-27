@@ -1,0 +1,29 @@
+.app {
+    min-height: 100vh;
+    background-color: #8cffb3;
+    display: grid;
+    grid-template-rows: 70px 1fr;
+    border: navy;
+    padding: 2rem;
+    background-image: url("https://images.pexels.com/photos/3568520/pexels-photo-3568520.jpeg");
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size:cover;
+    background-size: cover;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(157, 64, 201);
+    
+}
+.main {
+    display:grid;
+    place-items: center;
+    font-style: italic;
+    color:rgb(247, 10, 208);
+    
+    
+    
+}
